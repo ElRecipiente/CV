@@ -17,14 +17,18 @@ main {
     width: 21cm;
     height: 29.7cm;
     margin: 0 auto;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.98);
+    box-shadow: 0 0 4px black;
+
+    .bold {
+        font-weight: 700;
+    }
 }
 
 #header {
     position: relative;
     display: flex;
     padding: 0 10%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.95);
     color: white;
     justify-content: flex-end;
     align-items: center;
@@ -55,26 +59,27 @@ main {
     padding: 0 2em;
 
     #aside {
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.97);
+
+        background-color: rgba(0, 0, 0, 0.9);
         color: white;
         display: flex;
         flex-flow: column;
         justify-content: space-evenly;
-        width: 35%;
+        width: 40%;
         height: 100%;
 
         .rubrique {
             padding: 1em;
+            line-height: 1.5em;
 
             h2 {
-                line-height: 2em;
+                line-height: 3em;
             }
         }
     }
 
     #article {
-        text-align: center;
+
         display: flex;
         flex-flow: column;
         justify-content: space-around;
@@ -82,9 +87,10 @@ main {
 
         .skills {
             padding: 1em;
+            line-height: 1.5em;
 
             h2 {
-                line-height: 2em;
+                line-height: 3em;
             }
         }
     }
