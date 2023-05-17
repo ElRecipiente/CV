@@ -22,10 +22,13 @@ main {
     .bold {
         font-weight: 700;
     }
+
+    .underline {
+        text-decoration: underline;
+    }
 }
 
 #header {
-    position: relative;
     display: flex;
     padding: 0 10%;
     background-color: rgba(0, 0, 0, 0.95);
@@ -33,16 +36,6 @@ main {
     justify-content: flex-end;
     align-items: center;
     height: 15%;
-
-    picture {
-        position: absolute;
-        left: 7.5%;
-        top: 25%;
-
-        img {
-            width: 200px;
-        }
-    }
 
     h1 {
         font-size: 3em;
@@ -59,14 +52,25 @@ main {
     padding: 0 2em;
 
     #aside {
-
+        position: relative;
         background-color: rgba(0, 0, 0, 0.9);
         color: white;
         display: flex;
         flex-flow: column;
         justify-content: space-evenly;
-        width: 40%;
+        width: 50%;
         height: 100%;
+
+        picture {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -15%;
+
+            img {
+                width: 200px;
+            }
+        }
 
         .rubrique {
             padding: 1em;
@@ -75,6 +79,18 @@ main {
             h2 {
                 line-height: 3em;
             }
+
+            li {
+                display: flex;
+                gap: 1em;
+                align-items: center;
+
+                img {
+                    width: 15px;
+                }
+            }
+
+
         }
     }
 
