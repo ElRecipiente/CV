@@ -53,7 +53,7 @@ main .underline {
   color: white;
   display: flex;
   flex-flow: column;
-  justify-content: space-evenly;
+  justify-content: center;
   width: 50%;
   height: 100%;
 }
@@ -84,11 +84,10 @@ main .underline {
 .container #article {
   display: flex;
   flex-flow: column;
-  justify-content: space-around;
-  flex-grow: 1;
+  justify-content: space-evenly;
 }
 .container #article .skills {
-  padding: 1em;
+  padding: 0 1em;
   line-height: 1.5em;
 }
 .container #article .skills h2 {

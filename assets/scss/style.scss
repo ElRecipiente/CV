@@ -57,7 +57,7 @@ main {
         color: white;
         display: flex;
         flex-flow: column;
-        justify-content: space-evenly;
+        justify-content: center;
         width: 50%;
         height: 100%;
 
@@ -98,11 +98,10 @@ main {
 
         display: flex;
         flex-flow: column;
-        justify-content: space-around;
-        flex-grow: 1;
+        justify-content: space-evenly;
 
         .skills {
-            padding: 1em;
+            padding: 0 1em;
             line-height: 1.5em;
 
             h2 {
