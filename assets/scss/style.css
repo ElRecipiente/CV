@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Raleway";
+  src: url(../src/assets/fonts/Raleway/Raleway-VariableFont_wght.ttf), url(../src/assets/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf), url(../src/assets/fonts/Raleway/static), url(../src/assets/fonts/Raleway/static/Raleway-Black.ttf), url(../src/assets/fonts/Raleway/static/Raleway-BlackItalic.ttf), url(../src/assets/fonts/Raleway/static/Raleway-Bold.ttf), url(../src/assets/fonts/Raleway/static/Raleway-BoldItalic.ttf), url(../src/assets/fonts/Raleway/static/Raleway-ExtraBold.ttf), url(../src/assets/fonts/Raleway/static/Raleway-ExtraBoldItalic.ttf), url(../src/assets/fonts/Raleway/static/Raleway-ExtraLight.ttf), url(../src/assets/fonts/Raleway/static/Raleway-ExtraLightItalic.ttf), url(../src/assets/fonts/Raleway/static/Raleway-Italic.ttf), url(../src/assets/fonts/Raleway/static/Raleway-Light.ttf), url(../src/assets/fonts/Raleway/static/Raleway-LightItalic.ttf), url(../src/assets/fonts/Raleway/static/Raleway-Medium.ttf), url(../src/assets/fonts/Raleway/static/Raleway-MediumItalic.ttf), url(../src/assets/fonts/Raleway/static/Raleway-Regular.ttf), url(../src/assets/fonts/Raleway/static/Raleway-SemiBold.ttf), url(../src/assets/fonts/Raleway/static/Raleway-SemiBoldItalic.ttf), url(../src/assets/fonts/Raleway/static/Raleway-Thin.ttf), url(../src/assets/fonts/Raleway/static/Raleway-ThinItalic.ttf);
+}
 /* MINI RESET */
 *,
 *::before,
@@ -8,12 +12,15 @@
   list-style: none;
 }
 
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
 main {
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 18px;
   width: 21cm;
   height: 29.7cm;
   margin: 0 auto;
