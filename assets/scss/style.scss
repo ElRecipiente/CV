@@ -24,6 +24,7 @@
 }
 
 $color: rgb(255, 195, 83);
+$colorDarker : rgb(255, 180, 40);
 
 /* MINI RESET */
 *,
@@ -153,7 +154,7 @@ main {
 
             h2 {
                 line-height: 3em;
-                color: $color
+                color: $colorDarker
             }
         }
     }
