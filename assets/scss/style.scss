@@ -1,28 +1,3 @@
-@font-face {
-    font-family: 'Raleway';
-    src: url(../src/assets/fonts/Raleway/Raleway-VariableFont_wght.ttf),
-        url(../src/assets/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf),
-        url(../src/assets/fonts/Raleway/static),
-        url(../src/assets/fonts/Raleway/static/Raleway-Black.ttf),
-        url(../src/assets/fonts/Raleway/static/Raleway-BlackItalic.ttf),
-        url(../src/assets/fonts/Raleway/static/Raleway-Bold.ttf),
-        url(../src/assets/fonts/Raleway/static/Raleway-BoldItalic.ttf),
-        url(../src/assets/fonts/Raleway/static/Raleway-ExtraBold.ttf),
-        url(../src/assets/fonts/Raleway/static/Raleway-ExtraBoldItalic.ttf),
-        url(../src/assets/fonts/Raleway/static/Raleway-ExtraLight.ttf),
-        url(../src/assets/fonts/Raleway/static/Raleway-ExtraLightItalic.ttf),
-        url(../src/assets/fonts/Raleway/static/Raleway-Italic.ttf),
-        url(../src/assets/fonts/Raleway/static/Raleway-Light.ttf),
-        url(../src/assets/fonts/Raleway/static/Raleway-LightItalic.ttf),
-        url(../src/assets/fonts/Raleway/static/Raleway-Medium.ttf),
-        url(../src/assets/fonts/Raleway/static/Raleway-MediumItalic.ttf),
-        url(../src/assets/fonts/Raleway/static/Raleway-Regular.ttf),
-        url(../src/assets/fonts/Raleway/static/Raleway-SemiBold.ttf),
-        url(../src/assets/fonts/Raleway/static/Raleway-SemiBoldItalic.ttf),
-        url(../src/assets/fonts/Raleway/static/Raleway-Thin.ttf),
-        url(../src/assets/fonts/Raleway/static/Raleway-ThinItalic.ttf);
-}
-
 $color: rgb(255, 195, 83);
 $colorDarker : rgb(255, 180, 40);
 
@@ -38,7 +13,7 @@ $colorDarker : rgb(255, 180, 40);
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: sans-serif;
     font-weight: 400;
 }
 
@@ -146,7 +121,7 @@ main {
                 li {
                     ul {
                         li {
-                            padding: 0 1em;
+                            padding-left: 1em;
                         }
                     }
                 }
