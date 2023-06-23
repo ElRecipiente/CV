@@ -23,6 +23,8 @@
         url(../src/assets/fonts/Raleway/static/Raleway-ThinItalic.ttf);
 }
 
+$color: rgb(255, 195, 83);
+
 /* MINI RESET */
 *,
 *::before,
@@ -68,6 +70,7 @@ main {
 
     h1 {
         font-size: 3em;
+        color: $color
     }
 
     p {
@@ -107,6 +110,7 @@ main {
 
             h2 {
                 line-height: 3em;
+                color: $color
             }
 
             li {
@@ -137,8 +141,19 @@ main {
             padding: 0 1em;
             line-height: 1.5em;
 
+            ul {
+                li {
+                    ul {
+                        li {
+                            padding: 0 1em;
+                        }
+                    }
+                }
+            }
+
             h2 {
                 line-height: 3em;
+                color: $color
             }
         }
     }
