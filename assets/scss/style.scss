@@ -35,6 +35,11 @@ main {
     }
 }
 
+.logo {
+    width: 20px;
+    height: 20px;
+}
+
 #header {
     display: flex;
     padding: 0 10%;
@@ -114,17 +119,14 @@ main {
         justify-content: space-evenly;
 
         .skills {
-            padding: 0 1em;
+            padding-left: 2em;
             line-height: 1.5em;
 
-            ul {
-                li {
-                    ul {
-                        li {
-                            padding-left: 1em;
-                        }
-                    }
-                }
+
+            ul.grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+
             }
 
             h2 {

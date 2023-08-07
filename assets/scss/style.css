@@ -30,6 +30,11 @@ main .underline {
   text-decoration: underline;
 }
 
+.logo {
+  width: 20px;
+  height: 20px;
+}
+
 #header {
   display: flex;
   padding: 0 10%;
@@ -96,11 +101,12 @@ main .underline {
   justify-content: space-evenly;
 }
 .container #article .skills {
-  padding: 0 1em;
+  padding-left: 2em;
   line-height: 1.5em;
 }
-.container #article .skills ul li ul li {
-  padding-left: 1em;
+.container #article .skills ul.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 .container #article .skills h2 {
   line-height: 3em;
